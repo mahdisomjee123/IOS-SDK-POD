@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "AccuraScan" => "connect@accurascan.com" }
   spec.platform     = :ios, "12.0"
   spec.static_framework = true
-  spec.source       = { :git => "https://github.com/accurascan/AccuraOCR-SDK-iOS.git", :tag => "3.1.3" }
+  spec.source       = { :git => "https://github.com/mahdisomjee123/IOS-SDK-POD.git", :tag => "3.1.3" }
   spec.preserve_paths = 'AccuraOCR.framework'
   spec.vendored_frameworks = 'AccuraOCR.framework'
   spec.requires_arc = true
